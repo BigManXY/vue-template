@@ -173,7 +173,7 @@ module.exports = {
     'test/unit/specs/index.js': "unit && runner === 'karma'",
     'test/unit/setup.js': "unit && runner === 'jest'",
     'test/e2e/**/*': 'e2e',
-    "src/store/**/*": "vuex",
+    "src/store/*": "vuex",
     'src/router/**/*': 'router',
   },
   complete: function(data, { chalk }) {
