@@ -79,6 +79,10 @@ module.exports = {
       type: 'confirm',
       message: 'Use ESLint to lint your code?',
     },
+    vuex:{
+        "type": "confirm",
+        "message": "Install vuex?"
+    },
     lintConfig: {
       when: 'isNotTest && lint',
       type: 'list',
@@ -169,6 +173,7 @@ module.exports = {
     'test/unit/specs/index.js': "unit && runner === 'karma'",
     'test/unit/setup.js': "unit && runner === 'jest'",
     'test/e2e/**/*': 'e2e',
+    "src/store/**/*": "vuex",
     'src/router/**/*': 'router',
   },
   complete: function(data, { chalk }) {
