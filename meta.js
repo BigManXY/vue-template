@@ -80,8 +80,12 @@ module.exports = {
       message: 'Use ESLint to lint your code?',
     },
     vuex:{
+          "type": "confirm",
+          "message": "Install vuex?"
+      },
+    axios:{
         "type": "confirm",
-        "message": "Install vuex?"
+        "message": "Install axios?"
     },
     lintConfig: {
       when: 'isNotTest && lint',
@@ -174,6 +178,7 @@ module.exports = {
     'test/unit/setup.js': "unit && runner === 'jest'",
     'test/e2e/**/*': 'e2e',
     "src/store/**/*": "vuex",
+    "src/service/**/*": "axios",
     'src/router/**/*': 'router',
   },
   complete: function(data, { chalk }) {

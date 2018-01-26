@@ -27,7 +27,8 @@
   "dependencies": {
     "vue": "^2.5.2"{{#router}},
     "vue-router": "^3.0.1"{{/router}}{{#vuex}},
-    "vuex": "^2.1.1"{{/vuex}}
+    "vuex": "^2.1.1"{{/vuex}},{{#axios}},
+    "axios": "^0.16.2"{{/axios}}
   },
   "devDependencies": {
     {{#lint}}
@@ -117,6 +118,7 @@
     "portfinder": "^1.0.13",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1",
+    "node-sass": "^4.5.0",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
