@@ -3,7 +3,7 @@
     <div>首页</div>
     <input v-model="message"/>
     <button @click="setVuex">设置vuex</button>
-    <div>{{ myName }}</div>
+    <div v-text="myName"></div>
     <button @click="getVuex">获取vuex</button>
   </div>
 </template>
