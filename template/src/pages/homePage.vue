@@ -19,8 +19,8 @@
     },
     methods: {
       setVuex() {
-        userInfo.userName = this.message
-        this.$store.dispatch('setUserInfo', userInfo)
+        this.userInfo.userName = this.message
+        this.$store.dispatch('setUserInfo', this.userInfo)
       },
       getVuex() {
         this.myName = this.$store.state.userStore.userInfo.userName
