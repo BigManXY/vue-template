@@ -2,9 +2,9 @@
   <div>
     <div>首页</div>
     <input v-model="message"/>
-    <button ng-click="setVuex">设置vuex</button>
+    <button @click="setVuex">设置vuex</button>
     <div>{{ myName }}</div>
-    <button ng-click="getVuex">获取vuex</button>
+    <button @click="getVuex">获取vuex</button>
   </div>
 </template>
 
