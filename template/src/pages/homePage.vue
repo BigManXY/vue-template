@@ -13,7 +13,8 @@
     data () {
       return {
         message: 'bigMan',
-        myName: ''
+        myName: '',
+        userInfo:{}
       }
     },
     methods: {
