@@ -2,11 +2,11 @@
   {
     "path": "/",
     "name": "HelloWorld",
-    "component": "HelloWorld"
+    "component": "components/HelloWorld"
   },
   {
     "path": "/home",
     "name": "homePage",
-    "component": "homePage"
+    "component": "pages/homePage"
   }
 ]
