@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import routeConfig from './route.config.json'
+// import store from '../store'
 var registerRoute = (routeConfig) => {
   let route = []
   routeConfig.map(pages => {
